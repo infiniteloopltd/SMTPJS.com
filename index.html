@@ -1,0 +1,471 @@
+﻿ <!-- FlatFy Theme - Andrea Galanti /-->
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template ">
+    <meta name="author" content="">
+
+    <title>SmtpJS.com - Send Email from JavaScript</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+ 
+    <!-- Custom Google Web Font -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+	
+    <!-- Custom CSS-->
+    <link href="css/general.css" rel="stylesheet">
+	
+	 <!-- Owl-Carousel -->
+    <link href="css/custom.css" rel="stylesheet">
+	<link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+	
+	<!-- Magnific Popup core CSS file -->
+	<link rel="stylesheet" href="css/magnific-popup.css"> 
+	
+	<script src="js/modernizr-2.6.2.min.js"></script>  <!-- Modernizr /-->
+	<!--<script src="js/PIE_IE9.js"></script>  
+	<script src="js/PIE_IE678.js"></script>  -->
+	
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+	<![endif]-->
+
+</head>
+
+<body id="home">
+
+	<!-- Preloader -->
+	<div id="preloader">
+		<div id="status"></div>
+	</div>
+	
+	<!-- FullScreen -->
+    <div class="intro-header">
+		<div class="col-xs-12 text-center abcen1">
+			<h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">SmtpJS.com</h1>
+			<h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">Send email from Javascript</h3>
+			<ul class="list-inline intro-social-buttons">
+				<li><a onclick="bootbox.alert('Include a script tag to https://smtpjs.com/smtp.js')" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">CDN</span></a>
+				</li>
+				<li id="download" ><a href="smtp.js" download target="_blank" class="btn  btn-lg mybutton_standard wow swing wow fadeIn" data-wow-delay="1.2s"><span class="network-name">Download</span></a>
+				</li>
+			</ul>
+		</div>    
+        <!-- /.container -->
+		<div class="col-xs-12 text-center abcen wow fadeIn">
+			<div class="button_down "> 
+				<a class="imgcircle wow bounceInUp" data-wow-duration="1.5s"  href="#whatis"> <img class="img_scroll" src="img/icon/circle.png" alt=""> </a>
+			</div>
+		</div>
+    </div>
+	
+	<!-- NavBar-->
+	<nav class="navbar-default" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#home">SmtpJS.com</a>
+			</div>
+
+			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+					
+					<li class="menuItem"><a href="#whatis">Getting Started</a></li>
+					<li class="menuItem"><a href="#useit">Security</a></li>
+				
+				</ul>
+			</div>
+		   
+		</div>
+	</nav> 
+	
+	<!-- What is -->
+	<div id="whatis" class="content-section-b" style="border-top: 0">
+		<div class="container">
+
+			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+				<h2>Getting started</h2>
+				<p class="lead" style="margin-top:0">
+				<ul>
+					<li>1. Include the script:<br>
+					    <pre>&lt;script src="https://smtpjs.com/smtp.js"&gt;
+&lt;/script&gt;</pre>
+					</li>
+					<li>
+					   2. Send an email using: <br>
+					   <pre>Email.send("from@you.com",
+"to@them.com",
+"This is a subject",
+"this is the body",
+"smtp.yourisp.com",
+"username",
+"password");</pre>
+					</li>
+					    
+				</ul>
+				
+				</p>
+				
+			</div>
+			
+			
+				
+			
+		</div>
+	</div>
+	
+	<!-- Use it -->
+    <div id ="useit" class="content-section-a">
+
+        <div class="container">
+			
+            <div class="row">
+			
+				<div class="col-sm-6 pull-right wow fadeInRightBig">
+                    <img class="img-responsive " src="img/ipad.png" alt="">
+                </div>
+				
+                <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">   
+                    <h3 class="section-heading">Security</h3>
+					<div class="sub-title lead">Whoa!, wait a minute. I don't want my SMTP credentials visible to the world!</div>
+                    <p class="lead3">
+						We've thought of that, so instead you can encrypt your SMTP credentials, and lock it to a single domain,
+						and pass a secure token instead of the credentials instead, for example:
+<pre>Email.send("from@you.com",
+"to@them.com",
+"This is a subject",
+"this is the body",
+{token: "63cb3a19-2684-44fa-b76f-debf422d8b00"});
+</pre>
+					</p>
+
+					 <p><button class="btn btn-embossed btn-primary"  role="button" data-toggle="modal" data-target="#myModal">Encrypt your SMTP Credentials</button> 
+					 </p>
+				</div>   
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>
+
+    <div class="content-section-b"> 
+		
+		<div class="container">
+            <div class="row">
+                <div class="col-sm-6 wow fadeInLeftBig">
+                     <div id="owl-demo-1" class="owl-carousel">
+						<a href="img/iphone.png" class="image-link">
+							<div class="item">
+								<img  class="img-responsive img-rounded" src="img/iphone.png" alt="">
+							</div>
+						</a>
+						<a href="img/iphone.png" class="image-link">
+							<div class="item">
+								<img  class="img-responsive img-rounded" src="img/iphone.png" alt="">
+							</div>
+						</a>
+						<a href="img/iphone.png" class="image-link">
+							<div class="item">
+								<img  class="img-responsive img-rounded" src="img/iphone.png" alt="">
+							</div>
+						</a>
+					</div>       
+                </div>
+				
+                <div class="col-sm-6 wow fadeInRightBig"  data-animation-delay="200">   
+                    <h3 class="section-heading">Anti Spam</h3>
+					<div class="sub-title lead3">We don't like spam. Nobody does.</div>
+                    <p class="lead">
+						We have a zero tolerance for spam. If you get one spam report, we close your
+						account. Sorry about that, but this is a free service, and we're not taking 
+						any heat for you.
+					</p>
+
+					 <p>
+					 <a class="btn btn-embossed btn-info" href="#" role="button" data-toggle="modal" data-target="#modalSpamReport">Report Spam</a></p>
+				</div>  			
+			</div>
+        </div>
+    </div>
+
+    <div class="content-section-a">
+
+        <div class="container">
+
+             <div class="row">
+			 
+				<div class="col-sm-6 pull-right wow fadeInRightBig">
+                    <img class="img-responsive " src="img/doge.png" alt="">
+                </div>
+			 
+                <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">   
+                    <h3 class="section-heading">It's free!</h3>
+                    <p class="lead">This is a free script, no usage restrictions. 
+                    You can include it license free, in any project, either commercial or
+                    non commercial. 
+					</p>
+					<p><b>Dev tip:</b><br />
+                    Want to send with attachments?, use sendWithAttachment:
+<pre>
+Email.sendWithAttachment(
+    "from@you.com",
+    "to@them.com",
+    "Subject",
+    "Body",
+    "host.yourisp.com",
+    "username",
+    "password",
+    "http://url-where-your-attachment-file-is-stored");
+</pre>
+                    </p>
+					
+				</div>           
+            </div>
+        </div>
+
+    </div>
+
+	
+	
+
+	
+
+	
+	
+	
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <h3 class="footer-title">Follow Me!</h3>
+            <p>Got some comments or suggestions? - tweet me!</p>
+            <p><a href="https://twitter.com/webtropy" class="twitter-follow-button" data-show-count="false">Follow @webtropy</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            </p>
+			
+		
+		 
+		   
+	   
+          </div> <!-- /col-xs-7 -->
+
+          <div class="col-md-5">
+            <div class="footer-banner">
+              <h3 class="footer-title">Smtp.JS was developed by <br>
+              <a href="http://www.infiniteloop.ie" target="_blank">Infinite Loop Ltd</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+   <!-- Modal -->
+<div id="modalSpamReport" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Spam Report</h4>
+      </div>
+      <div class="modal-body">
+     <form class="form-horizontal">   
+<fieldset>
+
+
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Originating SMTP Host</label>  
+  <div class="col-md-4">
+  <input id="tbSpamHost" name="textinput" type="text" placeholder="smtp.spammer.com" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Originating Email Address</label>  
+  <div class="col-md-4">
+  <input id="tbSpamEmail" name="textinput" type="text" placeholder="spammer@fakedomain.com" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Any other information</label>  
+  <div class="col-md-4">
+  <textarea id="tbSpamInfo" name="textinput" type="text" placeholder="spammer@fakedomain.com" class="form-control input-md">
+  </textarea>
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="singlebutton"></label>
+  <div class="col-md-4">
+    <a id="btnReportSpam" name="singlebutton" class="btn btn-primary" >Report Spam</a>
+  </div>
+</div>
+
+</fieldset>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>    
+    
+    
+    <!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Encrypt your SMTP credentials</h4>
+      </div>
+      <div class="modal-body">
+        <form class="form-horizontal">
+<fieldset>
+
+
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">SMTP Host</label>  
+  <div class="col-md-4">
+  <input id="tbHost" name="textinput" type="text" placeholder="smtp.yourISP.com" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">SMTP Username</label>  
+  <div class="col-md-4">
+  <input id="tbUsername" name="textinput" type="text" placeholder="you@isp.com" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Password input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="passwordinput">SMTP Password</label>
+  <div class="col-md-4">
+    <input id="tbPassword" name="passwordinput" type="password" placeholder="******" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Domain</label>  
+  <div class="col-md-4">
+  <input id="tbDomain" name="textinput" type="text" placeholder="*.yourwebsite.com" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="singlebutton"></label>
+  <div class="col-md-4">
+    <a id="btnSecurityToken" name="singlebutton" class="btn btn-primary" >Generate security token</a>
+  </div>
+</div>
+
+</fieldset>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/jquery.browser.js"></script>
+    <script src="js/bootstrap.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script src="js/script.js"></script>
+	<!-- StikyMenu -->
+	<script src="js/stickUp.min.js"></script>
+	<script type="text/javascript">
+        if (location.protocol != 'https:') {
+            location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+        }
+
+	    jQuery(function ($) {
+	        $(document).ready(function () {
+	           
+	            $('.navbar-default').stickUp();
+	            $("#btnSecurityToken").bind("click", btnSecurityToken_click);
+	            $("#btnReportSpam").bind("click", btnReportSpam_click);
+	            if (location.hash == "#spam") {
+	                $("#modalSpamReport").modal();
+	            }
+	        });
+	    });
+
+      function btnSecurityToken_click() 
+      {
+          var strUrl = "smtp.aspx?action=Store";
+          strUrl += "&Host=" + $("#tbHost").val();
+          strUrl += "&Username=" + $("#tbUsername").val();
+          strUrl += "&Password=" + $("#tbPassword").val();
+          $.get(strUrl, function (data) {
+              bootbox.alert("Your security token is " + data + " Please take note of this.");
+          });
+	  	
+	  }
+
+	  function btnReportSpam_click() {
+	      var strUrl = "smtp.aspx?action=ReportSpam";
+	      strUrl += "&Host=" + $("#tbSpamHost").val();
+	      $.get(strUrl, function (data) {
+	          bootbox.alert("Thank you for reporting this. We will immediately block the sender, and report to authorities");
+          });
+	  }
+	
+	</script>
+	<!-- Smoothscroll -->
+	<script type="text/javascript" src="js/jquery.corner.js"></script> 
+	<script src="js/wow.min.js"></script>
+	<script>
+	 new WOW().init();
+	</script>
+	<script src="js/classie.js"></script>
+	<script src="js/uiMorphingButton_inflow.js"></script>
+	<!-- Magnific Popup core JS file -->
+	<script src="js/jquery.magnific-popup.js"></script> 
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
+</body>
+
+</html>
